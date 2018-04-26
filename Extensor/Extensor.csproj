@@ -48,6 +48,7 @@
     <Compile Include="IntExtensions.cs" />
     <Compile Include="FloatExtensions.cs" />
     <Compile Include="BoolExtensions.cs" />
+    <Compile Include="IEnumerableExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
