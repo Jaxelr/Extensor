@@ -46,6 +46,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DoubleExtensions.cs" />
     <Compile Include="IntExtensions.cs" />
+    <Compile Include="FloatExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
