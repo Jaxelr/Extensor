@@ -1,13 +1,13 @@
 
 # Extensor 
 Extension methods for the everyday C# developer!  
-[Nuget.org package](https://www.nuget.org/packages/Extensor/)  
+[Nuget.org package](https://www.nuget.org/packages/Extensor/)   
 
-| Branch | Build                                                                                                                        |
-|--------|------------------------------------------------------------------------------------------------------------------------------|
-| master | ![Build Status](https://jrsosa.visualstudio.com/_apis/public/build/definitions/ae28eed0-7e27-4299-a8d7-89ef8b8e0df5/6/badge) |
-| dev    | ![Build Status](https://jrsosa.visualstudio.com/_apis/public/build/definitions/ae28eed0-7e27-4299-a8d7-89ef8b8e0df5/7/badge) |
-  
+| branch | master                                                                                                                       | dev                                                                                                                          |
+|--------|------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| build status | ![Build Status](https://jrsosa.visualstudio.com/_apis/public/build/definitions/ae28eed0-7e27-4299-a8d7-89ef8b8e0df5/6/badge) | ![Build Status](https://jrsosa.visualstudio.com/_apis/public/build/definitions/ae28eed0-7e27-4299-a8d7-89ef8b8e0df5/7/badge) |  
+
+
 	
   ## Inspiration  
 	
@@ -48,7 +48,7 @@ Usage?
  ```  
 Simple and clean! :)  
 
-The .NetFramework provides a series of standard ExtensionMethods already such as `Single` `Concat` and so on most of the introduced when we first got extension methods in 2007 ! (C# 3.0) .
+The .NetFramework provides a series of standard ExtensionMethods already such as `Single` `Concat` and so on most of them introduced when we first got extension methods in 2007 ! (C# 3.0) .
 **Extensor** aims to take it further by adding additional methods that make developers focus on **building more and writing less**  
 
 Need a CSV mask to print out those customer name? No problem Extensor has you covered with the `ToCommaSeparatedValues` method.  
@@ -63,7 +63,7 @@ Console.Write(names.ToCommaSeparatedValues());
 ```
   
 
-#### Common Questions  
+## Common Questions  
 
 **Do I really need Extensor?**  
 It depends, although Extensor contains lots of useful and tested Extension methods I know that as the project size increases the amount of methods you might need may become irrelevant, this is why the project uses the MIT license so you can go ahead and copy the implementations you need without issues :)  
