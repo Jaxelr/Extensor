@@ -9,7 +9,7 @@ Extension methods for the everyday C# developer!
 
 
 	
-  ## Inspiration  
+ ## Inspiration  
 	
 Every time we start a new project we tend to find ourselves writing the same conditional "checkers" to improve our source code. Ever wrote something like this?  
 
