@@ -58,6 +58,7 @@ string extensions now have a summary.=</PackageReleaseNotes>
     <Compile Include="FloatExtensions.cs" />
     <Compile Include="BoolExtensions.cs" />
     <Compile Include="IEnumerableExtensions.cs" />
+    <Compile Include="DateTimeExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
