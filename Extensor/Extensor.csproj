@@ -59,6 +59,8 @@ string extensions now have a summary.=</PackageReleaseNotes>
     <Compile Include="BoolExtensions.cs" />
     <Compile Include="IEnumerableExtensions.cs" />
     <Compile Include="DateTimeExtensions.cs" />
+    <Compile Include="ShortExtensions.cs" />
+    <Compile Include="ObjectExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
