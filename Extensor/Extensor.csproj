@@ -31,7 +31,7 @@ object
 IEnumerable&lt;T&gt;
 DateTime (my favorite so far)  
 
-
+Addtional documentation can be found in the project repo under https://github.com/jrsosadev/Extensor/blob/dev/Extensor/documentation/Extensor.xml
 
 </PackageReleaseNotes>
     <PackageTags>c#, extension-methods,dotnet</PackageTags>
