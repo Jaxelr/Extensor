@@ -2,6 +2,9 @@
 
 namespace Extensor
 {
+    /// <summary>
+    /// Double extensions.
+    /// </summary>
     public static class DoubleExtensions
     {
         /// <summary>

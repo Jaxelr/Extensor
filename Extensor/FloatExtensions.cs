@@ -2,6 +2,9 @@
 
 namespace Extensor
 {
+    /// <summary>
+    /// Float extensions.
+    /// </summary>
     public static class FloatExtensions
     {
         /// <summary>
