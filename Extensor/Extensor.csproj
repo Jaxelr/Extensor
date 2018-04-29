@@ -13,27 +13,33 @@
     <TargetFrameworkProfile>Profile111</TargetFrameworkProfile>
     <PackOnBuild>true</PackOnBuild>
     <PackageId>Extensor</PackageId>
-    <PackageVersion>1.1</PackageVersion>
+    <PackageVersion>1.2</PackageVersion>
     <Authors>Joel R Sosa</Authors>
     <NeutralLanguage>en-US</NeutralLanguage>
     <Owners>Joel R Sosa</Owners>
     <PackageProjectUrl>https://github.com/jrsosadev/Extensor</PackageProjectUrl>
-    <PackageReleaseNotes>v1.1 includes  the following new extended types.  
+    <PackageReleaseNotes>V1.2 Include awesome extensions for the following types:  
 
-
-double
-int
 bool
-IEnumerable&lt;T&gt; (YES!)  
+int
+double
+float
+long
+short
+string
+object
+IEnumerable&lt;T&gt;
+DateTime (my favorite so far)  
 
-Aside from the above the following enhancement were made:  
-string extensions now have a summary.=</PackageReleaseNotes>
+
+
+</PackageReleaseNotes>
     <PackageTags>c#, extension-methods,dotnet</PackageTags>
     <Description>Extension methods to ease your everyday development life. </Description>
     <PackageLicenseUrl>https://github.com/jrsosadev/Extensor/blob/master/LICENSE</PackageLicenseUrl>
     <Summary>Extension methods to ease your everyday development life.</Summary>
     <Title>Extensor</Title>
-    <ReleaseVersion>1.1</ReleaseVersion>
+    <ReleaseVersion>1.2</ReleaseVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -43,6 +49,7 @@ string extensions now have a summary.=</PackageReleaseNotes>
     <DefineConstants>DEBUG;</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\Extensor.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <Optimize>true</Optimize>

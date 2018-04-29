@@ -14,5 +14,6 @@
         /// <returns>The yes or no.</returns>
         /// <param name="condition">If set to <c>true</c> condition.</param>
         public static string ToYesOrNo(this bool condition) => condition ? "YES" : "NO";
+
     }
 }
