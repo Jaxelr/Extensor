@@ -61,6 +61,7 @@ string extensions now have a summary.=</PackageReleaseNotes>
     <Compile Include="DateTimeExtensions.cs" />
     <Compile Include="ShortExtensions.cs" />
     <Compile Include="ObjectExtensions.cs" />
+    <Compile Include="LongExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
