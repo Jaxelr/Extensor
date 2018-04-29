@@ -1,6 +1,9 @@
 ﻿using System;
 namespace Extensor
 {
+    /// <summary>
+    /// Date time extensions.
+    /// </summary>
     public static class DateTimeExtensions
     {
         /// <summary>

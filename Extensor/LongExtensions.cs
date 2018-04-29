@@ -1,6 +1,9 @@
 ﻿using System;
 namespace Extensor
 {
+    /// <summary>
+    /// Long extensions.
+    /// </summary>
     public static class LongExtensions
     {
         /// <summary>

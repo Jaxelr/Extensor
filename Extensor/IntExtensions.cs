@@ -2,6 +2,9 @@
 
 namespace Extensor
 {
+    /// <summary>
+    /// Int extensions.
+    /// </summary>
     public static class IntExtensions
     {
         /// <summary>

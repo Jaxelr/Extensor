@@ -22,5 +22,16 @@ Global
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		version = 1.2
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$0.TextStylePolicy = $2
+		$2.FileWidth = 80
+		$2.TabsToSpaces = True
+		$2.scope = application/xml
+		$0.XmlFormattingPolicy = $3
+		$3.DefaultFormat = $4
+		$4.AttributesInNewLine = True
+		$3.scope = application/xml
+		$0.VersionControlPolicy = $5
 	EndGlobalSection
 EndGlobal

@@ -1,5 +1,8 @@
 ﻿namespace Extensor
 {
+    /// <summary>
+    /// Bool extensions.
+    /// </summary>
     public static class BoolExtensions
     {
         /// <summary>

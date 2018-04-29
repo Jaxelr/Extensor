@@ -4,6 +4,9 @@ using System.Linq;
 
 namespace Extensor
 {
+    /// <summary>
+    /// IEnumerable numerable extensions.
+    /// </summary>
     public static class IEnumerableExtensions
     {
         /// <summary>

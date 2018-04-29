@@ -1,0 +1,396 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Extensor</name>
+    </assembly>
+    <members>
+        <member name="T:Extensor.StringExtensions">
+            <summary>
+            String extensions.
+            </summary>
+        </member>
+        <member name="M:Extensor.StringExtensions.HasText(System.String)">
+            <summary>
+            Returns true if the string is not null, whitespace or empty.
+            </summary>
+            <param name="v">V.</param>
+        </member>
+        <member name="M:Extensor.StringExtensions.In(System.String,System.String[])">
+            <summary>
+            Returns true if the value is found within the values specified. This method is case sensitive. 
+            </summary>
+            <param name="v">V.</param>
+            <param name="values">Values.</param>
+        </member>
+        <member name="M:Extensor.StringExtensions.In(System.String,System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Returns true if the value is found within the values specified. This method is case sensitive. 
+            </summary>
+            <param name="v">V.</param>
+            <param name="values">Values.</param>
+        </member>
+        <member name="M:Extensor.StringExtensions.InIgnoringCasing(System.String,System.String[])">
+            <summary>
+            Returns true if the value is found within the values specified. This method is not case sensitive. 
+            </summary>
+            <param name="v">V.</param>
+            <param name="values">Values.</param>
+        </member>
+        <member name="M:Extensor.StringExtensions.InIgnoringCasing(System.String,System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Returns true if the value is found within the values specified. This method is not case sensitive. 
+            </summary>
+            <param name="v">V.</param>
+            <param name="values">Values.</param>
+        </member>
+        <member name="M:Extensor.StringExtensions.IsADate(System.String)">
+            <summary>
+            Returns true if the value specified parses to a DateTime object. 
+            </summary>
+            <param name="v">V.</param>
+        </member>
+        <member name="M:Extensor.StringExtensions.IsEmpty(System.String)">
+            <summary>
+            Returns true if the string is null, whitespace or empty.
+            </summary>
+            <param name="v">V.</param>
+        </member>
+        <member name="M:Extensor.StringExtensions.NotIn(System.String,System.String[])">
+            <summary>
+            Returns true if the value is not found within the values specified. This method is case sensitive. 
+            </summary>
+            <param name="v">V.</param>
+            <param name="values">Values.</param>
+        </member>
+        <member name="M:Extensor.StringExtensions.NotIn(System.String,System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Returns true if the value is not found within the values specified. This method is case sensitive. 
+            </summary>
+            <param name="v">V.</param>
+            <param name="values">Values.</param>
+        </member>
+        <member name="M:Extensor.StringExtensions.NotInIgnoringCasing(System.String,System.String[])">
+            <summary>
+            Returns true if the value is not found within the values specified. This method is not case sensitive. 
+            </summary>
+            <param name="v">V.</param>
+            <param name="values">Values.</param>
+        </member>
+        <member name="M:Extensor.StringExtensions.NotInIgnoringCasing(System.String,System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Returns true if the value is not found within the values specified. This method is not case sensitive. 
+            </summary>
+            <param name="v">V.</param>
+            <param name="values">Values.</param>
+        </member>
+        <member name="M:Extensor.StringExtensions.RemoveEverythingBefore(System.String,System.Char)">
+            <summary>
+            Removes everything from the specified delimeter and returns the new value. 
+            </summary>
+            <param name="v">V.</param>
+            <param name="delimeter">Delimeter.</param>
+        </member>
+        <member name="M:Extensor.StringExtensions.SplitByEnvironmentNewLine(System.String)">
+            <summary>
+            Splits the given value by newline and returns. 
+            </summary>
+            <param name="v">V.</param>
+        </member>
+        <member name="M:Extensor.StringExtensions.ToByteArray(System.String,System.Text.Encoding)">
+            <summary>
+            Returns a byte array for the given string value using the encoding provided. 
+            </summary>
+            <param name="text">Text.</param>
+            <param name="encoding">Encoding.</param>
+        </member>
+        <member name="M:Extensor.StringExtensions.ValueBetween(System.String,System.String,System.String)">
+            <summary>
+            Returns the string value between foo and bar
+            </summary>
+            <param name="v">V.</param>
+            <param name="foo">Foo.</param>
+            <param name="bar">Bar.</param>
+        </member>
+        <member name="T:Extensor.DoubleExtensions">
+            <summary>
+            Double extensions.
+            </summary>
+        </member>
+        <member name="M:Extensor.DoubleExtensions.IsBetween(System.Double,System.Double,System.Double)">
+            <summary>
+            Returns true if the value specified is between the given min and max values.
+            </summary>
+            <param name="v">V.</param>
+            <param name="min">Minimum.</param>
+            <param name="max">Max.</param>
+        </member>
+        <member name="M:Extensor.DoubleExtensions.IsNotBetween(System.Double,System.Double,System.Double)">
+            <summary>
+            Returns true if the value specified is not between the given min and max values.
+            </summary>
+            <param name="v">V.</param>
+            <param name="min">Minimum.</param>
+            <param name="max">Max.</param>
+        </member>
+        <member name="M:Extensor.DoubleExtensions.In(System.Double,System.Double[])">
+            <summary>
+            Returns true if the value in question is within the suplied values. 
+            </summary>
+            <param name="v">V.</param>
+            <param name="values">Values.</param>
+        </member>
+        <member name="M:Extensor.DoubleExtensions.NotIn(System.Double,System.Double[])">
+            <summary>
+            Returns true if the value in question is not within the suplied values. 
+            </summary>
+            <param name="v">V.</param>
+            <param name="values">Values.</param>       
+        </member>
+        <member name="T:Extensor.IntExtensions">
+            <summary>
+            Int extensions.
+            </summary>
+        </member>
+        <member name="M:Extensor.IntExtensions.IsBetween(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Returns true if the value specified is between the given min and max values.
+            </summary>
+            <param name="v">V.</param>
+            <param name="min">Minimum.</param>
+            <param name="max">Max.</param>
+        </member>
+        <member name="M:Extensor.IntExtensions.IsNotBetween(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Returns true if the value specified is not between the given min and max values.
+            </summary>
+            <param name="v">V.</param>
+            <param name="min">Minimum.</param>
+            <param name="max">Max.</param>
+        </member>
+        <member name="M:Extensor.IntExtensions.In(System.Int32,System.Int32[])">
+            <summary>
+            Returns true if the value in question is within the suplied values. 
+            </summary>
+            <param name="v">V.</param>
+            <param name="values">Values.</param>
+        </member>
+        <member name="M:Extensor.IntExtensions.NotIn(System.Int32,System.Int32[])">
+            <summary>
+            Returns true if the value in question is not within the suplied values. 
+            </summary>
+            <param name="v">V.</param>
+            <param name="values">Values.</param>       
+        </member>
+        <member name="T:Extensor.FloatExtensions">
+            <summary>
+            Float extensions.
+            </summary>
+        </member>
+        <member name="M:Extensor.FloatExtensions.IsBetween(System.Single,System.Single,System.Single)">
+            <summary>
+            Returns true if the value specified is between the given min and max values.
+            </summary>
+            <param name="v">V.</param>
+            <param name="min">Minimum.</param>
+            <param name="max">Max.</param>
+        </member>
+        <member name="M:Extensor.FloatExtensions.IsNotBetween(System.Single,System.Single,System.Single)">
+            <summary>
+            Returns true if the value specified is not between the given min and max values.
+            </summary>
+            <param name="v">V.</param>
+            <param name="min">Minimum.</param>
+            <param name="max">Max.</param>
+        </member>
+        <member name="M:Extensor.FloatExtensions.In(System.Single,System.Single[])">
+            <summary>
+            Returns true if the value in question is within the suplied values. 
+            </summary>
+            <param name="v">V.</param>
+            <param name="values">Values.</param>
+        </member>
+        <member name="M:Extensor.FloatExtensions.NotIn(System.Single,System.Single[])">
+            <summary>
+            Returns true if the value in question is not within the suplied values. 
+            </summary>
+            <param name="v">V.</param>
+            <param name="values">Values.</param>       
+        </member>
+        <member name="T:Extensor.BoolExtensions">
+            <summary>
+            Bool extensions.
+            </summary>
+        </member>
+        <member name="M:Extensor.BoolExtensions.ToNumericValue(System.Boolean)">
+            <summary>
+            Returns 1 if true else 0
+            </summary>
+            <param name="condition">If set to <c>true</c> condition.</param>
+        </member>
+        <member name="M:Extensor.BoolExtensions.ToYesOrNo(System.Boolean)">
+            <summary>
+            Returns YES if true else returns NO
+            </summary>
+            <returns>The yes or no.</returns>
+            <param name="condition">If set to <c>true</c> condition.</param>
+        </member>
+        <member name="T:Extensor.IEnumerableExtensions">
+            <summary>
+            IEnumerable numerable extensions.
+            </summary>
+        </member>
+        <member name="M:Extensor.IEnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{System.Int32,``0})">
+            <summary>
+            Calls an action on each item within the list. Returns the zero-based index of the last value in the list.
+            </summary>
+            <returns>The each.</returns>
+            <param name="enumerable">Enumerable.</param>
+            <param name="action">Action.</param>
+            <typeparam name="T">The 1st type parameter.</typeparam>
+        </member>
+        <member name="M:Extensor.IEnumerableExtensions.HasRecords``1(System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            Returns true if the item count is greater than 0;
+            </summary>
+            <returns><c>true</c>, if records was hased, <c>false</c> otherwise.</returns>
+            <param name="enumerable">Enumerable.</param>
+            <typeparam name="T">The 1st type parameter.</typeparam>
+        </member>
+        <member name="M:Extensor.IEnumerableExtensions.MissingIn``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            Returns the elements from the source that are missing in the given collection.
+            </summary>
+            <returns>The in.</returns>
+            <param name="source">source.</param>
+            <param name="collection">Collection.</param>
+            <typeparam name="T">The 1st type parameter.</typeparam>
+        </member>
+        <member name="M:Extensor.IEnumerableExtensions.ToCommaSeparatedValues``1(System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            Returns a string contaning all items with a comma separated value (CSV) mask. 
+            </summary>
+            <returns>The comma separated values.</returns>
+            <param name="enumerable">Enumerable.</param>
+            <typeparam name="T">The 1st type parameter.</typeparam>
+        </member>
+        <member name="T:Extensor.DateTimeExtensions">
+            <summary>
+            Date time extensions.
+            </summary>
+        </member>
+        <member name="M:Extensor.DateTimeExtensions.DaysTo(System.DateTime,System.DateTime)">
+            <summary>
+            Returns the amount of days left between the enddate and current date
+            </summary>
+            <param name="current">Date.</param>
+            <param name="endDate">End date.</param>
+        </member>
+        <member name="M:Extensor.DateTimeExtensions.InTheFuture(System.DateTime)">
+            <summary>
+            Returns true if the date is greater than the current DateTime.Now
+            </summary>
+            <param name="dateTime">Date time.</param>
+        </member>
+        <member name="M:Extensor.DateTimeExtensions.IsBetween(System.DateTime,System.DateTime,System.DateTime)">
+            <summary>
+            Returns true if the date is between from and to.
+            </summary>
+            <param name="date">Date.</param>
+            <param name="from">From.</param>
+            <param name="to">To.</param>
+        </member>
+        <member name="M:Extensor.DateTimeExtensions.IsNotBetween(System.DateTime,System.DateTime,System.DateTime)">
+            <summary>
+            Returns true if the date is between from and to.
+            </summary>
+            <param name="date">Date.</param>
+            <param name="from">From.</param>
+            <param name="to">To.</param>
+        </member>
+        <member name="M:Extensor.DateTimeExtensions.IsSunday(System.DateTime)">
+            <summary>
+            Returns true if the given date is Sunday
+            </summary>
+            <param name="current">Current.</param>
+        </member>
+        <member name="M:Extensor.DateTimeExtensions.IsMonday(System.DateTime)">
+            <summary>
+            Returns true if the given date is Monday
+            </summary>
+            <param name="current">Current.</param>
+        </member>
+        <member name="M:Extensor.DateTimeExtensions.IsTuesday(System.DateTime)">
+            <summary>
+            Returns true if the given date is Tuesday
+            </summary>
+            <param name="current">Current.</param>
+        </member>
+        <member name="M:Extensor.DateTimeExtensions.IsWednesday(System.DateTime)">
+            <summary>
+            Returns true if the given date is Wednesday
+            </summary>
+            <param name="current">Current.</param>
+        </member>
+        <member name="M:Extensor.DateTimeExtensions.IsThursday(System.DateTime)">
+            <summary>
+            Returns true if the given date is Thursday
+            </summary>
+            <param name="current">Current.</param>
+        </member>
+        <member name="M:Extensor.DateTimeExtensions.IsFriday(System.DateTime)">
+            <summary>
+            Returns true if the given date is Friday
+            </summary>
+            <param name="current">Current.</param>
+        </member>
+        <member name="M:Extensor.DateTimeExtensions.IsSaturday(System.DateTime)">
+            <summary>
+            Returns true if the given date is Saturay
+            </summary>
+            <param name="current">Current.</param>
+        </member>
+        <member name="T:Extensor.ShortExtensions">
+            <summary>
+            Short extensions.
+            </summary>
+        </member>
+        <member name="M:Extensor.ShortExtensions.In(System.Int16,System.Int16[])">
+            <summary>
+            Returns true if value is within values. 
+            </summary>
+            <returns>The in.</returns>
+            <param name="v">V.</param>
+            <param name="values">Values.</param>
+        </member>
+        <member name="M:Extensor.ShortExtensions.In(System.Int16,System.Collections.Generic.IEnumerable{System.Int16})">
+            <summary>
+            Returns true if value is within values. 
+            </summary>
+            <returns>The in.</returns>
+            <param name="v">V.</param>
+            <param name="values">Values.</param>
+        </member>
+        <member name="T:Extensor.ObjectExtensions">
+            <summary>
+            Object extensions.
+            </summary>
+        </member>
+        <member name="M:Extensor.ObjectExtensions.IsNull(System.Object)">
+            <summary>
+            Returns true if the object reference is null
+            </summary>
+        </member>
+        <member name="T:Extensor.LongExtensions">
+            <summary>
+            Long extensions.
+            </summary>
+        </member>
+        <member name="M:Extensor.LongExtensions.ToFileSize(System.Int64)">
+            <summary>
+            Returns the total file size represented as a human readable string. Ex:  1.MB
+            </summary>
+            <returns>The file size.</returns>
+            <param name="size">Size.</param>
+        </member>
+    </members>
+</doc>
